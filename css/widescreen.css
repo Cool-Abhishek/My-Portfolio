@@ -1,0 +1,201 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    /* General classes */
+    .l-heading {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        line-height: 1.1;
+    }
+    .m-heading {
+        font-size: 1.5rem;
+        line-height: 1.9;
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .para1 {
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem;
+    }
+    .para2 {
+        line-height: 1.5;
+        padding-bottom: 1rem;
+    }
+    .para3 {
+        line-height: 1;
+        padding-bottom: 0.75rem;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .para4 {
+        font-size: 1rem;
+    }
+    .para5 {
+        line-height: 1;
+        padding-bottom: 0.75rem;
+        line-height: 1.4;
+        font-size: 1rem;
+    }
+    .line {
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+    }
+    .line-break {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    .s-icons {
+        font-size: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 0.25rem;
+    }
+    .f-icons {
+        font-size: 1.9rem;
+    }
+    .f-icons i {
+        padding: 0.4rem;
+    }
+    /* Navigation starts from here */
+    #navbar {
+        background: #333;
+        position: sticky;
+        top: 0;
+        color: #fff;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        z-index: 1;
+        padding: 1rem 1rem;
+    }
+    #navbar .fa-artstation {
+        font-size: 2rem;
+        padding: 0.25rem;
+        margin-bottom: 0.75rem;
+    }
+    #navbar ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+    #navbar ul li {
+        padding: 0.5rem 0;
+    }
+    #navbar ul li a {
+        color: #fff;
+        padding: 0.5rem;
+        margin: 0.25rem;
+    }
+    /* Showcase section starts from here */
+    #showcase {
+        background: url("./images/bg1.jpg") no-repeat center center/cover;
+        color: #fff;
+        height: 50vh;
+    }
+    #showcase .showcase-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+        padding-bottom: 3rem;
+        padding-right: 1rem;
+        /* overlay */
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0px;
+        background-color: rgb(0, 0, 0, 0.7);
+    }
+    .btn {
+        display: none;
+    }
+    /* Section : About */
+    #about {
+        text-align: center;
+        background: #0375b4;
+        height: 300px;
+        color: #fff;
+        padding-top: 1.5rem;
+    }
+    #about-details .about-long .image img {
+        height: 100px;
+        float: left;
+        clear: left;
+        margin: 0 0.5rem;
+        border: 3px solid grey;
+        border-radius: 5px;
+    }
+    #about-details .about-long {
+        margin-top: 0.5rem;
+        color: #333;
+    }
+    #technology {
+        padding-top: 0;
+    }
+    /* section : project */
+    #project {
+        background: url("./images/wip.jpg") no-repeat center center/cover;
+        height: 250px;
+    }
+    /* Section: contact */
+    #contact {
+        background: #5f0f4e;
+        color: #fff;
+        height: 100%;
+    }
+    /* contact : heading */
+    #contact .contact-heading {
+        text-align: center;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    #contact .contact-section {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact .form-section .button {
+        margin: 1rem auto;
+        width: 70%;
+        padding: 1rem 2rem;
+    }
+    #contact .form-section .button .btn-new {
+        padding: 0.5rem;
+    }
+    #contact .form-section .form-content input, #contact .form-section .form-content textarea {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    /* Start: Info-section*/
+    #contact .contact-section .info-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-right: 2.5rem;
+    }
+    /* Form section */
+    /*Show off */
+    #contact .contact-section .info-section .info-section1, #contact .contact-section .info-section .info-section2, #contact .contact-section .info-section .info-section3 {
+        flex: 1 1 250px;
+    }
+    #contact .contact-section .info-section .info-section1 .info-icons {
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+        padding: 1.25rem;
+    }
+    #contact .contact-section .info-section .info-section2 .info-content {
+        margin-bottom: 1rem;
+        margin-right: 3rem;
+        padding: 1rem;
+    }
+    /* Footer Section starts from here */
+    #main-footer {
+        background: #fedcd2;
+        color: #333;
+        text-align: center;
+        padding: 1rem;
+    }
+}

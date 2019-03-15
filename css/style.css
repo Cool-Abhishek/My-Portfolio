@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* Reseting the default */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto slab, sans-serif;
+    line-height: 1.4;
+}
+
+/* General Classes */
+
+.l-heading {
+    font-size: 3.5rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2.5rem;
+    line-height: 1.9;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+}
+
+.sm-heading {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.para1 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+
+.para2 {
+    line-height: 1.7;
+    padding-bottom: 2rem;
+}
+
+.para3 {
+    line-height: 1;
+    padding-bottom: 0.75rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.para4 {
+    text-align: center;
+    line-height: 1;
+    padding-bottom: 3rem;
+}
+
+.para5 {
+    line-height: 1;
+    padding-bottom: 0.75rem;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.c-text {
+    color: #f13c20;
+}
+
+.f-icons {
+    font-size: 1.8rem;
+}
+
+.f-icons i {
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.f-icons .fa-twitter {
+    color: #0375b4;
+}
+
+.f-icons .fa-linkedin {
+    color: #0b5e86;
+}
+
+.f-icons .fa-github {
+    color: #fff;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 1rem;
+    overflow: hidden;
+}
+
+.contact-m-heading {
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.1rem;
+}
+
+.line {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    margin-bottom: 2rem;
+}
+
+.line-break {
+    width: 80%;
+    margin-left: 6rem;
+    margin-bottom: 0.5rem;
+}
+
+.s-icons {
+    font-size: 2rem;
+    margin-left: 6rem;
+    margin-bottom: 2.5rem;
+}
+
+.s-icons i {
+    padding: 0.4rem;
+}
+
+.s-icons .fa-facebook {
+    color: #3b5998;
+}
+
+.s-icons .fa-instagram {
+    color: #dd2a7b;
+}
+
+.s-icons .fa-google-plus-g {
+    color: #db4437;
+}
+
+.s-icons .fa-whatsapp {
+    color: #25d366;
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+/* End of General classes */
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    background: #333;
+    position: sticky;
+    top: 0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem 6rem;
+}
+
+#navbar .fa-artstation {
+    font-size: 2rem;
+    padding: 0.25rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: #fff;
+    padding: 0.75rem;
+    margin: 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background: #4484ce;
+    border-radius: 5px;
+}
+
+/* Showcase section starts from here */
+
+#showcase {
+    background: url("../images/bg1.jpg") no-repeat center center/cover;
+    color: #fff;
+    height: 100vh;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 8rem;
+    padding-right: 2rem;
+    /* overlay */
+    position: absolute;
+    top: 71px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #fc4a1a;
+    padding: 0.4rem 1rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 16px;
+}
+
+.btn:hover {
+    background: #f13c20;
+}
+
+/* Section : About */
+
+#about {
+    text-align: center;
+    background: #0375b4;
+    height: 280px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#about-details .about-long .image img {
+    height: 150px;
+    float: left;
+    clear: left;
+    margin: 0 1rem;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+#about-details .about-long {
+    margin-top: 1rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+/* Technology */
+
+#technology {
+    padding-top: 1rem;
+}
+
+#technology .logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+#technology .logos img {
+    display: block;
+    width: 60%;
+    height: 70%;
+    padding-bottom: 1rem;
+}
+
+/* section : project */
+
+#project {
+    background: url("../images/wip.jpg") no-repeat center center/cover;
+    height: 400px;
+}
+
+/* Section: contact */
+
+#contact {
+    background: #5f0f4e;
+    color: #fff;
+    height: 100vh;
+}
+
+#contact .contact-main {
+    height: 100%;
+}
+
+/* contact : heading */
+
+#contact .contact-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+/* contact : subheading */
+
+#contact .contact-subheading {
+    text-align: center;
+}
+
+#contact .contact-section {
+    display: flex;
+}
+
+#contact .contact-section .form-section, #contact .contact-section .info-section {
+    flex: 1;
+}
+
+/* Form section */
+/*Show off */
+
+#contact .contact-section .form-section input, #contact .contact-section .form-section textarea {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 0.5rem;
+}
+
+#contact .contact-section .form-section textarea {
+    height: 100px;
+}
+
+#contact .contac-section .form-section {
+    color: #000;
+}
+
+#contact .form-section .form-content {
+    margin: 0.75rem auto;
+    width: 80%;
+}
+
+#contact .form-section .button {
+    margin: 1rem auto;
+    width: 70%;
+    padding: 1.5rem 2rem;
+}
+
+#contact .form-section .button .btn-new {
+    color: #fff;
+    background: #fc4a1a;
+    border-radius: 16px;
+    padding: 0.75rem;
+}
+
+#contact .form-section .button .btn-new:hover {
+    background: #f13c20;
+}
+
+/* Start: Info-section*/
+
+#contact .contact-section .info-section {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-right: 2.5rem;
+}
+
+#contact .contact-section .info-section .info-section1, #contact .contact-section .info-section .info-section2, #contact .contact-section .info-section .info-section3 {
+    flex: 1 1 200px;
+}
+
+#contact .contact-section .info-section .info-section1 .info-icons {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+}
+
+#contact .contact-section .info-section .info-section2 .info-content {
+    margin-bottom: 0.5rem;
+    padding: 0.25rem;
+}
+
+/* Footer Section starts from here */
+
+#main-footer {
+    background: #fedcd2;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+
