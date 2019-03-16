@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
     /* General classes */
     .l-heading {
         font-size: 2.5rem;
@@ -89,7 +89,7 @@
     }
     /* Showcase section starts from here */
     #showcase {
-        background: url("./images/bg1.jpg") no-repeat center center/cover;
+        background: url("../images/bg1.jpg") no-repeat center center/cover;
         color: #fff;
         height: 50vh;
     }
@@ -137,7 +137,7 @@
     }
     /* section : project */
     #project {
-        background: url("./images/wip.jpg") no-repeat center center/cover;
+        background: url("../images/wip.jpg") no-repeat center center/cover;
         height: 250px;
     }
     /* Section: contact */
