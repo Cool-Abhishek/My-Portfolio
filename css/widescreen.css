@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     /* General classes */
     .l-heading {
         font-size: 2.5rem;
