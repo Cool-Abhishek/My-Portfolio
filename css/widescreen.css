@@ -89,7 +89,7 @@
     }
     /* Showcase section starts from here */
     #showcase {
-        background: url("../images/bg1.jpg") no-repeat center center/cover;
+        background: url("./images/bg1.jpg") no-repeat center center/cover;
         color: #fff;
         height: 50vh;
     }
@@ -137,7 +137,7 @@
     }
     /* section : project */
     #project {
-        background: url("../images/wip.jpg") no-repeat center center/cover;
+        background: url("./images/wip.jpg") no-repeat center center/cover;
         height: 250px;
     }
     /* Section: contact */
